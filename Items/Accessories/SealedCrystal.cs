@@ -2,13 +2,12 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace DimentionCollision.Items
+namespace DimentionCollision.Items.Accessories
 {
     public class SealedCrystal : ModItem
     {
         public override void SetStaticDefaults()
         {
-            //DisplayName.SetDefault("");
             Tooltip.SetDefault("A crystal shines 3 colors. Blue, Black, and Yellow... it gives a strange aura like people are inside them");
         }
         public override void SetDefaults()
@@ -28,7 +27,6 @@ namespace DimentionCollision.Items
 				player.statLifeMax2 += 40;
 				player.statManaMax2 += 30;
 			}
-		
 			else
 			{
 				player.statDefense += 20;
