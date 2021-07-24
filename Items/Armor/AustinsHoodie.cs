@@ -34,10 +34,5 @@ namespace DimentionCollision.Items.Armor
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
-
-        public override void DrawHair(ref bool drawHair, ref bool drawAltHair)
-        {
-            drawHair = true;
-        }
     }
 }
