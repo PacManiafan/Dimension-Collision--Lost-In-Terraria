@@ -2,14 +2,14 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace DimentionCollision.Items
+namespace DimentionCollision.Items.Accessories
 {
 	public class AustinsPhone : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			
-			Tooltip.SetDefault("Ausin's Phone. Somehow it's still at 100% and it's clustered with a lot of things on it. Somehow you walk faster when distracted");
+			DisplayName.SetDefault("Ausin's Phone");
+			Tooltip.SetDefault("Somehow it's still at 100% and it's clustered with a lot of things on it. Somehow you walk faster when distracted");
 		}
 
 		public override void SetDefaults()
@@ -23,11 +23,7 @@ namespace DimentionCollision.Items
 
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-			player.statDefense += 0;
-			player.allDamage += 0f;
 			player.maxRunSpeed += 40;
-			player.statLifeMax2 += 0;
-			player.statManaMax2 += 0;
 		}
 
 		public override void AddRecipes()
