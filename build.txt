@@ -1,0 +1,3 @@
+displayName = Dimention Collsion/Maniac's Khaos
+author = Ausitn The Maniac
+version = 0.1
