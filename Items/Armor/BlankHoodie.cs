@@ -2,7 +2,7 @@
 using Terraria.ModLoader;
 using Terraria.ID;
 
-namespace DimentionCollision.Items.Armor
+namespace DimensionCollision.Items.Armor
 {
     [AutoloadEquip(EquipType.Body)]
     public class BlankHoodie : ModItem

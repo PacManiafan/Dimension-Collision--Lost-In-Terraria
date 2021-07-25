@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace DimentionCollision.Items.Accessories
+namespace DimensionCollision.Items.Accessories
 {
 	public class AustinsPhone : ModItem
 	{
@@ -23,7 +23,7 @@ namespace DimentionCollision.Items.Accessories
 
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-			player.maxRunSpeed += 40;
+			player.GetModPlayer<DCPlayer>().phone = true;
 		}
 
 		public override void AddRecipes()

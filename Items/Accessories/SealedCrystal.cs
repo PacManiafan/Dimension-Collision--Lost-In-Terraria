@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace DimentionCollision.Items.Accessories
+namespace DimensionCollision.Items.Accessories
 {
     public class SealedCrystal : ModItem
     {
